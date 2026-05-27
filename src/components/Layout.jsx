@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import CookieConsent from './CookieConsent'
+import Sticker from './Sticker'
 
 const Layout = ({ children }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
       <main className="flex-grow">{children}</main>
       <Footer />
       <CookieConsent />
+      <Sticker />
     </div>
   )
 }
