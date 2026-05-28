@@ -188,7 +188,7 @@ const Pentakuhl = () => {
                     <span className="text-xl md:text-2xl font-medium text-[#111111]">Reusable</span>
                   </div>
                   <div className="w-2/3 flex items-center justify-center border-l border-gray-200/70 p-4">
-                    <img src={getAssetPath('images/credo-cube.png')} alt="Crēdo Cube" className="max-h-full max-w-xs object-contain" />
+                    <img src={getAssetPath('images/credocube.png')} alt="Crēdo Cube" className="max-h-full max-w-xs object-contain" />
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@ const Pentakuhl = () => {
                     <img src={getAssetPath('images/coolpall-vertos.png')} alt="CoolPall Vertos" className="max-h-full max-w-full object-contain" />
                   </div>
                   <div className="w-1/3 flex items-center justify-center border-l border-gray-200/70 p-3">
-                    <img src={getAssetPath('images/coolpall-vertos-advance.png')} alt="CoolPall Vertos Advance" className="max-h-full max-w-full object-contain" />
+                    <img src={getAssetPath('images/coolpall-advance.png')} alt="CoolPall Vertos Advance" className="max-h-full max-w-full object-contain" />
                   </div>
                 </div>
 
