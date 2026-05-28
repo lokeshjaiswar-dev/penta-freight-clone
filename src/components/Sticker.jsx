@@ -4,8 +4,18 @@ const BASE = import.meta.env.BASE_URL
 
 const Sticker = () => {
   return (
-    <div className="fixed left-0 top-1/2 transform -translate-y-1/2 z-50">
-      <img src={`${BASE}images/sticker.png`} alt="Contact" className="w-10 h-auto cursor-pointer hover:scale-110 transition duration-300" />
+    <div 
+      className="fixed z-50 transition-all duration-300
+        /* Mobile & Tablet: Bottom Right Corner */
+        bottom-6 right-6 transform-none
+        /* Desktop (lg screen and up): Middle Left Edge */
+        lg:left-0 lg:top-1/2 lg:bottom-auto lg:right-auto lg:-translate-y-1/2"
+    >
+      <img 
+        src={`${BASE}images/sticker.png`} 
+        alt="Contact" 
+        className="w-12 h-12 md:w-14 md:h-14 lg:w-10 lg:h-auto object-contain cursor-pointer shadow-lg lg:shadow-none rounded-full hover:scale-110 active:scale-95 transition duration-300" 
+      />
     </div>
   )
 }
