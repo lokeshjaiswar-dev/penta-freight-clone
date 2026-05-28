@@ -1,16 +1,33 @@
-# React + Vite
+# Penta Freight Clone 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend clone of the Penta Freight website, built within a 24-hour deadline.
 
-Currently, two official plugins are available:
+## 🔗 Submission Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*   **Live Link:** [lokeshjaiswar-dev.github.io/penta-freight-clone/](https://lokeshjaiswar-dev.github.io/penta-freight-clone/)
+*   **GitHub Repository:** [github.com/lokeshjaiswar-dev/penta-freight-clone](https://github.com/lokeshjaiswar-dev/penta-freight-clone)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+*   **React (Vite):** For organized and modular code structure[cite: 1].
+*   **Tailwind CSS:** For pixel-perfect and mobile-responsive layouts[cite: 1].
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌟 Improvements Implemented (Bonus Points)[cite: 1]
+
+1. **Sticky Header:** Replaced the disappearing menu with a fixed sticky header at the top for easier navigation.
+
+---
+
+## 📦 Local Setup
+
+1. Clone and install:
+```bash
+   git clone [https://github.com/lokeshjaiswar-dev/penta-freight-clone.git](https://github.com/lokeshjaiswar-dev/penta-freight-clone.git)
+   cd penta-freight-clone
+   npm install
+   npm run dev
+```
